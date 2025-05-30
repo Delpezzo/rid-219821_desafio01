@@ -50,22 +50,87 @@
 
 /*SEÇÃO IMAGEM*/
 
-
-
-#titulo-imagem{
-    color: #000000;
-    text-align: center;
-    margin-right: 400px;
-    
+#texto-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
 }
 
-#texto-imagem{
-    color: #000000;
-    margin-top: 20px;
-    text-align: center;
-    margin-top: px;
+.conteudo-texto {
+  display: flex;
+  flex-direction: column; 
+  max-width: 500px;
+  color: #000000;
+}
+
+.conteudo-texto h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.conteudo-texto p {
+  font-size: 16px;
+  color: #000000;
 }
 
 #ima{
-    margin-left: 1200px;
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    max-height: 500px;
+}
+
+/*FORMULARIO*/
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 25px;
+    padding-top: 100px;
+    
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius:5px;
+    padding-left: 10px;
+    color: #000000;
+}
+
+button{
+    background-color: #C07212;
+    height: 40px;
+    width: 150px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0301663a;
+    transition-duration: 0.5s;
 }
